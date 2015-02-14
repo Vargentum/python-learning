@@ -1,0 +1,670 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"incomp",
+				"incompleted-view"
+			],
+			[
+				"incom",
+				"incompleted-view"
+			],
+			[
+				"badge_m",
+				"badge_name"
+			],
+			[
+				"ui-p",
+				"ui-pagination"
+			],
+			[
+				"ui",
+				"ui-button--simple"
+			],
+			[
+				"ui-pagina",
+				"ui-pagination__unit"
+			],
+			[
+				"ui-pa",
+				"ui-pagination__unit"
+			],
+			[
+				"atta",
+				"attachToSessions"
+			],
+			[
+				"app",
+				"appstyles"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"base",
+				"base-font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "the-hard-way/1.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "1.py"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/administrator/Projects/python-learning",
+		"/Users/administrator/Projects/python-learning/the-hard-way"
+	],
+	"file_history":
+	[
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profile.html",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profile.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profileslist.coffee",
+		"/Users/administrator/Projects/texas-social-management/build-config.json",
+		"/Users/administrator/Projects/texas-social-management/src/_styles/badge.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/activity/_items/entry/entry.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/_base/commonviews/profile/profile.html",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/postcss/node_modules/js-base64/base64_utf8",
+		"/Users/administrator/Projects/texas-social-management/src/_texas-style-settings.styl",
+		"/Users/administrator/Projects/texas-social-management/src/ui/popup/popup.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/layout.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/activity/timeline/timeline.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/activity/_items/entry/entry.coffee",
+		"/Users/administrator/Projects/texas-social-management/src/ui/popup/popup.html",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/viewanswer.html",
+		"/Users/administrator/Projects/texas-social-management/src/ui/popup/popup.coffee",
+		"/Users/administrator/Projects/texas-social-management/index.html",
+		"/Users/administrator/Projects/texas-social-management/dependencies/fonts/omnes-light.woff",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-spritesmith/node_modules/json2css/node_modules/mustache/test/_files/partial_array_of_partials_implicit.js",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/on-headers/index.js",
+		"/Users/administrator/Projects/texas-social-management/src/views/individual/individual.styl",
+		"/Users/administrator/Projects/texas-social-management/src/view.coffee",
+		"/Users/administrator/Projects/texas-social-management/.idea/vcs.xml",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/preview.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/pagination/pagination.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/pagination/pagination.coffee",
+		"/Users/administrator/Projects/texas-builder/html/pagination.html",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/polls.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profiles-widget.coffee",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/create.styl",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/input-number.json",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/png-alpha.json",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt/node_modules/minimatch/test/defaults.js",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/activity/_items/entry/default_entry.html",
+		"/Users/administrator/Projects/texas-social-management/lib/date.format.js",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/polls.coffee",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profiles-widget.html",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profile/profile.html",
+		"/Users/administrator/Projects/texas-social-management/node_modules/pngsmith/test/pngsmith_test.js",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profile/profile.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profile/profile.coffee",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profileslist.html",
+		"/Users/administrator/Projects/texas-social-management/src/views/profilebanconfirm.coffee",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-spritesmith/node_modules/json2css/node_modules/mustache/test/_files/empty_list.js",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-spritesmith/node_modules/json2css/node_modules/mustache/test/_files/empty_list.mustache",
+		"/Users/administrator/Projects/texas-social-management/src/views/profilebanconfirm.html",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt/node_modules/glob/test/pause-resume.js",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/preview.html",
+		"/Users/administrator/Projects/texas-social-management/.idea/misc.xml",
+		"/Users/administrator/Projects/texas-social-management/src/_styles/texas-builder-preview.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/polls.html",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-spritesmith/node_modules/json2css/node_modules/mustache/test/_files/partial_array_of_partials.js",
+		"/Users/administrator/Projects/texas-social-management/node_modules/pngsmith/node_modules/obj-extend/lib/obj-extend.js",
+		"/Users/administrator/Projects/texas-social-management/package.json",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/list.styl",
+		"/Users/administrator/Projects/texas-social-management/src/ui/mask/mask.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/_base/commonviews/profile/profile.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profiles-widget.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/activity/_items/carousel.styl",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-spritesmith/src-test/expected_files/sprite_positions.overrides.styl",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-contrib-cssmin/node_modules/clean-css/lib/properties/override-compactor.js",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-contrib-connect/node_modules/connect/examples/upload.js",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/bin/update-livereload",
+		"/Users/administrator/Projects/texas-social-management/node_modules/pngsmith/UNLICENSE",
+		"/Users/administrator/Projects/texas-social-management/Gruntfile.coffee",
+		"/Users/administrator/Projects/texas-social-management/dist/css/texas-social.css",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/view.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/leaderboard/rating.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/leaderboard/list.html",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/activity/replies/replies.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/createform.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/activity/_items/entry/quickpoll.html",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-spritesmith/docs/alt-diagonal.css",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-contrib-stylus/node_modules/stylus/node_modules/sax/test/duplicate-attribute.js",
+		"/Users/administrator/Projects/texas-social-management/.idea/modules.xml",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/methodOverride.js",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-mocha/node_modules/mocha/node_modules/jade/lib/nodes/mixin.js",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/pushnotifications/dialog.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/profile/profileactions.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/view.html",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/createform.html",
+		"/Users/administrator/Projects/texas-social-management/src/appsdk.coffee",
+		"/Users/administrator/Projects/texas-social-management/src/_styles/__texas-style-settings.styl",
+		"/Users/administrator/Projects/texas-social-management/src/_styles/_sprite-map.styl",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/preview-new.styl",
+		"/Users/administrator/Projects/texas-social-management/temp/appstyles.css",
+		"/Users/administrator/Projects/texas-social-management/src/ui/_base.coffee",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-mocha/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/node_modules/request/node_modules/http-signature/lib/verify.js",
+		"/Users/administrator/Projects/texas-social-management/node_modules/grunt-mocha/node_modules/grunt-lib-phantomjs/node_modules/eventemitter2/lib/eventemitter2.js",
+		"/Users/administrator/Projects/texas-social-management/src/sdk.coffee",
+		"/Users/administrator/Projects/texas-social-management/.gitignore",
+		"/Users/administrator/Projects/texas-social-management/src/widgets/polls/listHeader.html",
+		"/Users/administrator/Projects/texas-social-management/src/_styles/commons.styl",
+		"/Users/administrator/Projects/texas-social-management/src/views/_base.coffee",
+		"/Users/administrator/Projects/salamat/src/base-styles/icon-font.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/core.styl",
+		"/Users/administrator/Projects/salamat/src/components/index.jade",
+		"/Users/administrator/Projects/salamat/app/assets/css/icon-font/simple-line-icons.css",
+		"/Users/administrator/Projects/salamat/app/assets/css/icon-font/font-awesome.css",
+		"/Users/administrator/Projects/salamat/app/index.html",
+		"/Users/administrator/Projects/salamat/Gruntfile.coffee",
+		"/Users/administrator/Projects/salamat/.gitignore",
+		"/Users/administrator/Projects/salamat/app/assets/css/icon-font/elegant-icons.css",
+		"/Users/administrator/Projects/salamat/app/assets/font/icons-d41d8cd98f00b204e9800998ecf8427e.eot",
+		"/Users/administrator/Projects/salamat/app/assets/font/font-awesome.woff",
+		"/Users/administrator/Projects/salamat/app/assets/css/if-font-awesome.css",
+		"/Users/administrator/Projects/salamat/app/assets/css/if-elegant-icons.css",
+		"/Users/administrator/Projects/salamat/app/assets/css/if-simple-line-icons.css",
+		"/Users/administrator/Projects/salamat/app/assets/css/simple-line-icons.css",
+		"/Users/administrator/Projects/salamat/src/fonts/elegant-icons/elegant-icons.styl",
+		"/Users/administrator/Projects/salamat/src/components/layout/header.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/settings.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/extends.styl",
+		"/Users/administrator/Projects/salamat/src/components/layout/header.jade",
+		"/Users/administrator/Projects/salamat/src/fonts/fonts-controller.styl",
+		"/Users/administrator/Projects/salamat/src/fonts/elegant-icons/reference/style.css",
+		"/Users/administrator/Projects/salamat/src/fonts/simple-line-icons/reference/simple-line-icons.css",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/generic/_brand.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/generic/_mixins.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/generic/_debug.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_smallprint.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_quotes.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_paragraphs.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_main.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_lists.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_images.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_headings.styl",
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_forms.styl"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/Users/administrator/Projects/texas-social-management/src",
+			"/Users/administrator/Projects/texas-social-management",
+			"/Users/administrator/Projects/texas-social-management/src",
+			"/Users/administrator/Projects/",
+			"/Users/administrator/Projects/texas-social-management/src",
+			"/Users/administrator/Projects/salamat/src",
+			"/Users/administrator/Projects/texas-builder/src",
+			"preview.html",
+			"",
+			"preview.html",
+			"preview.styl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ts-main",
+			"incompleted",
+			"banned-view",
+			"ts-main__header__content",
+			"main__header__title",
+			"ts-main__header__content",
+			"ts-main__header__message",
+			"incompleted-view",
+			"banned-view",
+			"User banned",
+			"triggerClass \"incomplete",
+			"badge_status_online",
+			"ts-activity-entry",
+			"ts-stream-item-profile",
+			"ui-modal__header__main  ui-modal__title",
+			"icon-1",
+			"ui-modal__header__main  ui-modal__title",
+			"ts-activity-item__component--likes-full",
+			".ts-activity-item__component--likes-full",
+			"ts-activity-item__component--likes",
+			".ts-activity-item__component--likes-ful",
+			"ts-activity-timeline-empty-list",
+			"ts-poll-view-layout-left",
+			"fLine ",
+			"ts-pagination-widget__unit",
+			" <a href=\"#\" class=\"ui-button--simple ui-pagination__unit\">",
+			"<a href=\"#\" class=\"ui-button--simple ui-pagination__unit",
+			"ts-pagination-widget__unit",
+			"ts-pagination-widget",
+			"ts-pagination-widgetё",
+			"ts-create-poll-view",
+			"input",
+			"#texas-social",
+			"170px",
+			"ts-profiles-widget",
+			"ts-profile-view",
+			"Profiles",
+			"ts-activity-timeline-list-item",
+			"poll-preview",
+			".badge_main",
+			"ts-profiles-widget",
+			".badge_photo",
+			" 60px",
+			"60px",
+			"ts-profiles-widget",
+			"size 60px",
+			"badge_main",
+			"badge_main > *",
+			"badge_main>*",
+			"badge_main > *",
+			"badge_main",
+			"preview",
+			"close-2",
+			"d-unb",
+			"ui-notify",
+			"ts-ui-mask",
+			"120px",
+			"--status",
+			"ts-polls-list-view__poll-entry__contol",
+			"ts-polls-list-view__poll-entry__contol--status",
+			"texas-preview__event-info",
+			" 3px",
+			"3px",
+			"-3px",
+			"gecko",
+			"check-poll-results__body",
+			"ts-activity-item-view-replied__person",
+			"ts-ui-mask",
+			"ui-modal",
+			"ui-dialog",
+			"ts-polls-widget",
+			"ts-polls-widget__label",
+			"placeholder",
+			"$base-font-c",
+			"565656",
+			"poll-preview__answers__unit",
+			"attachToSessions",
+			"tb-analytics__rating",
+			"__answers",
+			"poll-preview__answers",
+			"translateY(-100%)",
+			"poll-preview ",
+			"poll-preview",
+			"attachToSessions",
+			"poll-preview",
+			"ts-polls-widget",
+			"ts-polls-widget__label",
+			"Post Now",
+			"ts-poll-view-layout-left",
+			"ts-poll-view-layout",
+			"870",
+			"870px",
+			"poll-preview",
+			"ctr__content",
+			"&__time",
+			"border-radius 5px",
+			"styles.appStyles",
+			"styles.appstyles",
+			"stylus",
+			"stylus.",
+			"className",
+			"classname",
+			"texas-preview__event-info__mask",
+			"ui-mask",
+			"texas-preview__event-info__mask",
+			"mask",
+			"mas",
+			"/>",
+			"color()",
+			"content",
+			"color()",
+			"color ",
+			"__content",
+			"body-c",
+			"!important",
+			"iconUrl",
+			"bannerUrl",
+			"(venue || address)",
+			"(time)",
+			"time",
+			"appData.attributes",
+			"{name}",
+			"bannerUrl",
+			"className",
+			"data.appAppearance.banner",
+			"className",
+			"== true",
+			".ts-poll-preview-view"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"elegant-icons\n",
+			"elegant-icons \n",
+			"elegant-icons\n",
+			"message\n",
+			"elegant-icons\n",
+			"message\n",
+			">\n"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "the-hard-way/1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "1.py",
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "python-learning.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"buil",
+				"build-config.json"
+			],
+			[
+				"_tex",
+				"src/_texas-style-settings.styl"
+			],
+			[
+				"viewan",
+				"src/widgets/polls/viewanswer.html"
+			],
+			[
+				"_texas",
+				"src/_texas-style-settings.styl"
+			],
+			[
+				"index.ht",
+				"index.html"
+			],
+			[
+				"pagination.st",
+				"src/widgets/pagination/pagination.styl"
+			],
+			[
+				"_te",
+				"src/_texas-style-settings.styl"
+			],
+			[
+				"profile",
+				"src/widgets/profiles/profile.html"
+			],
+			[
+				"profile.ht",
+				"src/widgets/profile/profile.html"
+			],
+			[
+				"profilelist.html",
+				"src/widgets/profiles/profileslist.html"
+			],
+			[
+				"polls",
+				"src/widgets/polls/layout.styl"
+			],
+			[
+				"polls.sty",
+				"src/widgets/polls/polls.styl"
+			],
+			[
+				"preview",
+				"src/_styles/texas-builder-preview.styl"
+			],
+			[
+				"grunt",
+				"Gruntfile.coffee"
+			],
+			[
+				"grun",
+				"Gruntfile.coffee"
+			],
+			[
+				"mixins",
+				"node_modules/grunt-mocha/node_modules/mocha/node_modules/jade/lib/nodes/mixin.js"
+			],
+			[
+				"pre",
+				"src/components/preview.styl"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"previe",
+				"html/sponsor-content/preview.html"
+			],
+			[
+				"prev",
+				"src/components/preview.styl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
