@@ -30,29 +30,3 @@ def evenOrOdd(num):
 assert evenOrOdd(5) == 'Odd'
 assert evenOrOdd(4) == 'Even'
 assert evenOrOdd('ax1') == err_msg
-
-
-
-
-
-# Get all subsecquences from sequense ordered in alphabetical order:
-def getSubSequences(str):
-  sortedList = sorted(list(str))
-  i = len(sortedList)
-
-  case = ''
-
-  for a in sortedList:
-    for b in sortedList: 
-      if a != b
-        case += a + b
-
-
-  return case
-
-['a','b','c']
-
-
-
-# assert getSubSequences('abc') == ['a','b','c','ab','bc','ac']
-print(getSubSequences('abc'))
