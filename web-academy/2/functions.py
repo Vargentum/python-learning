@@ -13,7 +13,13 @@ def reverse(s):
         i += 1
     return ''.join(res)
 
+
+def reverse_real(s):
+    return s[::-1]
+
+
 assert reverse('abc') == 'cba'
+assert reverse_real('abc') == 'cba'
 
 
 # 2
