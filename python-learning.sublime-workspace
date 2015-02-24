@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"uses",
+				"uses_only"
+			],
+			[
+				"hal",
+				"halfEnd"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
 				"incomp",
 				"incompleted-view"
 			],
@@ -51,15 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "the-hard-way/1.py",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix",
-				"name": "1.py"
-			}
-		}
 	],
 	"build_system": "Anaconda Python Builder",
 	"command_palette":
@@ -84,11 +87,7 @@
 	},
 	"console":
 	{
-		"height": 181.0,
-		"history":
-		[
-			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
-		]
+		"height": 181.0
 	},
 	"distraction_free":
 	{
@@ -99,13 +98,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/administrator/Projects/python-learning",
-		"/Users/administrator/Projects/python-learning/the-hard-way"
-	],
 	"file_history":
 	[
+		"/home/py/python-learning/web-academy/2/functions.py",
+		"/home/py/python-learning/web-academy/1/fizzbuzz.py",
+		"/home/py/python-learning/web-academy/3/lesson.py",
+		"/home/py/python-learning/web-academy/1/fizzbuzz-import.py",
+		"/home/py/python-learning/web-academy/1/__init__.py",
+		"/home/py/python-learning/web-academy/2/desigions.py",
+		"/home/py/python-learning/the-hard-way/1.py",
 		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profile.html",
 		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profile.styl",
 		"/Users/administrator/Projects/texas-social-management/src/widgets/profiles/profileslist.coffee",
@@ -226,14 +227,7 @@
 		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/generic/_brand.styl",
 		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/generic/_mixins.styl",
 		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/generic/_debug.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_smallprint.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_quotes.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_paragraphs.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_main.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_lists.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_images.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_headings.styl",
-		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_forms.styl"
+		"/Users/administrator/Projects/salamat/src/base-styles/inuit-framework/base/_smallprint.styl"
 	],
 	"find":
 	{
@@ -241,7 +235,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 108.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/administrator/Projects/texas-social-management/src",
@@ -262,6 +256,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"letter",
+			" == True",
+			"abc",
 			"ts-main",
 			"incompleted",
 			"banned-view",
@@ -386,10 +383,7 @@
 			"{name}",
 			"bannerUrl",
 			"className",
-			"data.appAppearance.banner",
-			"className",
-			"== true",
-			".ts-poll-preview-view"
+			"data.appAppearance.banner"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -415,97 +409,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "the-hard-way/1.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_name": "1.py",
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -544,7 +449,6 @@
 	{
 		"height": 0.0
 	},
-	"project": "python-learning.sublime-project",
 	"replace":
 	{
 		"height": 58.0
@@ -646,25 +550,10 @@
 		],
 		"width": 0.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
-	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 202.0,
-	"status_bar_visible": false,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": false
 }

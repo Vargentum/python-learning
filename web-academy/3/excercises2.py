@@ -72,7 +72,7 @@ dataCounted = {}
 def char_distribution(data):
   result = {} 
   global dataCounted   
-  dataCounted = collections.Counter(data)
+  return collections.Counter(data)
   for i in dataCounted:
     result[i] = dataCounted[i]
   return result
