@@ -19,8 +19,16 @@ class TestTime:
         c = Time(12, 0, 0)
         assert a == c
 
+    def test_should_be_addable(self):
+        a = Time(12, 50, 1)
+        b = Time(12, 50, 2)
+        assert a + b == Time(25, 40, 3)
+
+
     def test_should_be_convertible_to_seconds(self):
         a = Time(0, 0, 60)
         b = Time(1, 1, 1)
         assert a.convert_to_seconds() == 60
         assert b.convert_to_seconds() == 1 + 1*60 + 1*3600
+
+   
