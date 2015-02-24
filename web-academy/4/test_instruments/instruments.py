@@ -2,22 +2,23 @@ class Instrument(object):
   """docstring for Instrument"""
   def __init__(self, name):
     self.name = name
-    return 'Instrument: %s' % self.name
 
   def play(self):
     return 'Playing on %s' % self.name
 
+  def __str__(self):
+    return 'Instrument: %s' % self.name
 
 
 class Guitar(Instrument):
   """docstring for Guitar"""
-  def __init__(self, strings):
-    super(Guitar, self).__init__()
-    self.strings = strings
+  def __init__(self, name, strings):
+    self.name = name
+    super().__init__(name)
 
   def play(self):
     if self.strings > 0:
-      super(Guitar, self).play()
+      return 'Playing on %s' % self.name  
     else:
       return 'Can not play, no strings :('
 
@@ -29,8 +30,8 @@ class Guitar(Instrument):
 
 class Ukulele(Guitar):
   """docstring for Ukulele"""
-  def __init__(self):
-    super(Ukulele, self).__init__()
+  def __init__(self, name):
     self.strings = 4
+    super().__init__(name)
 
     
