@@ -43,7 +43,7 @@
 
 """
 
-from instruments import Instrument, Guitar, Ukulele
+from .instruments import Instrument, Guitar, Ukulele
 
 # Instrument – будь-який музичний інструмент
 # Guitar – гітара
