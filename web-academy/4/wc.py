@@ -43,9 +43,8 @@ def count_lines(file_handle):
     """Return number of lines in file"""
     count = 0
 
-    # Код тут
-    # ...
-    # ...
+    for line in file_handle:
+        count += 1
 
     file_handle.seek(0)
     return count
@@ -54,10 +53,9 @@ def count_lines(file_handle):
 def count_letters(file_handle):
     count = 0
 
-    # Код тут
-    # ...
-    # ...
-
+    for line in file_handle:
+        count += len(line)
+    
     file_handle.seek(0)
     return count
 
@@ -65,9 +63,9 @@ def count_letters(file_handle):
 def count_words(file_handle):
     count = 0
 
-    # Код тут
-    # ...
-    # ...
+    for line in file_handle:
+        wordsInLine = len(list(line.split(' ')))
+        count += wordsInLine
 
     file_handle.seek(0)
     return count
@@ -75,10 +73,12 @@ def count_words(file_handle):
 
 def max_line_length(file_handle):
     result = 0
+    lineLength = []
 
-    # Код тут
-    # ...
-    # ...
+    for line in file_handle:
+        lineLength.append(len(line))
+
+    result = max(lineLength)
 
     file_handle.seek(0)
     return result
@@ -96,6 +96,8 @@ if __name__ == '__main__':
                         default=sys.stdin, help='input file')
     parser.add_argument('-l', '--lines', action="store_true",
                         help='count lines')
+    parser.add_argument('-t', '--letters', action="store_true",
+                        help='count letters')
     parser.add_argument('-w', '--words', action="store_true",
                         help='count words')
     parser.add_argument('-L', '--max-line-length', action="store_true",
@@ -107,6 +109,9 @@ if __name__ == '__main__':
 
     if args.lines:
         print('lines:', count_lines(args.file))
+
+    if args.letters:
+        print('letters:', count_letters(args.file))
 
     if args.words:
         print('words:', count_words(args.file))
