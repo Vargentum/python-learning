@@ -1,15 +1,16 @@
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+{% extends 'birthdays/base.html' %}
 
-	<p>They have a birthday today:</p>
+
+{% block 'title' %}
+	{{date}}
+{% endblock %}
+
+
+{% block 'content' %}
+	<p>They have a birthday {{ date }}:</p>
 	<ul>
 		{% for person in people %}
 		<li>{{person}}</li>
 		{% endfor %}
 	</ul>
-
-</body>
-</html>
+{% endblock %}

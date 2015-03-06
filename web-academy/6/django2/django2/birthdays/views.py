@@ -32,6 +32,7 @@ def birthday_view(request, birthday):
 	if len(people) > 0:
 		return render_to_response('birthdays/birthday.html',
 			{
+				'date': birthday,
 				'people': people
 			}
 		)
