@@ -7,7 +7,7 @@ from django.views.generic import \
     UpdateView, \
     DeleteView
 
-from .models import Post
+from .models import Post, Category
 
 # View function:
 # func: request -> HTTPRespnse
@@ -27,6 +27,11 @@ class PostList(ListView):
     model = Post
     paginate_by = 2
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['category_list'] = Category.objects.all
+        return context
+
 
 class PostCreate(CreateView):
     model = Post
@@ -43,9 +48,17 @@ class PostDelete(DeleteView):
     success_url = reverse_lazy('blog')
 
 
-# class CategoryList(ListView):
-#     model = Category
+class CategoryList(ListView):
+    model = Category
 
 
-# class CategoryDetail(DetailView):
-#     model = Category
+class CategoryDetail(DetailView):
+    model = Category
+    latest_post_numbers = 2
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['latest_posts'] = self.get_object().post_set.all()[:self.latest_post_numbers]
+        context['posts_number'] = self.get_object().post_set.count()
+        return context
+

@@ -1,7 +1,8 @@
 from django.conf.urls import patterns, url
 
 from .views import PostList, PostDetail, \
-    PostCreate, PostUpdate, PostDelete
+    PostCreate, PostUpdate, PostDelete, \
+    CategoryList, CategoryDetail
 
 urlpatterns = patterns('',
 
@@ -24,8 +25,8 @@ urlpatterns = patterns('',
     url(r'^posts/add/$', PostCreate.as_view(), name='post_create'),
 
     # example.com/blog/categories
-    # url(r'^category/categories$', CategoryList.as_view(), name='category_list'),
+    url(r'^categories$', CategoryList.as_view(), name='category_list'),
 
     # example.com/blog/category/1
-    # url(r'^category/(?P<pk>)/$', CategoryDetail.as_view(), name='category_detail'),
+    url(r'^category/(?P<pk>\d+)/$', CategoryDetail.as_view(), name='category_detail'),
 )

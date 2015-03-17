@@ -3,13 +3,19 @@ from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext as _
 
 
-# class Category(models.Model):
+class Category(models.Model):
 
-#     class Meta:
-#         verbose_name = _('Category')
-#         verbose_name_plural = _('Categories')
+    class Meta:
+        verbose_name = _('Category')
+        verbose_name_plural = _('Categories')
 
-#     name = models.CharField(_('name'), max_length=255)
+    name = models.CharField(_('name'), max_length=255)
+
+    def get_absolute_url(self):
+        return reverse('category_detail', kwargs={'pk' : self.pk})
+
+    def __str__(self):
+        return self.name
 
 
 class Post(models.Model):
@@ -26,7 +32,7 @@ class Post(models.Model):
     created_at = models.DateTimeField(_('created at'),
                                       auto_now_add=True)
 
-    # category = models.ForeignKey('Category', verbose_name=_('category'))
+    category = models.ForeignKey('Category', verbose_name=_('category'), null=True)
 
     def get_absolute_url(self):
         return reverse('post_detail', kwargs={'pk' : self.pk})

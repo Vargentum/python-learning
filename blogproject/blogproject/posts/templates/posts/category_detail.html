@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+{{ category.name }}
+{% endblock %}
+
+{% block body_block %}
+<h1>{{ category.name }}</h1>
+{% trans 'Last posts from this category' %}
+<ul>
+	{% for post in latest_posts %}
+	<li><a href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></li>
+	{% endfor %}
+</ul>
+<p>{% trans 'Total number of posts is' %} {{posts_number}}</p>
+{% endblock %}
