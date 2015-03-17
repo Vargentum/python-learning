@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+{% trans 'Blog' %}
+{% endblock %}
+
+{% block body_block %}
+{% for post in post_list %}
+<article>
+    <a href="{% url 'post_detail' pk=post.pk %}"><h2>{{ post.title }}</h2></a>
+    <p>{{ post.description }}</p>
+</article>
+{% endfor %}
+
+<nav>
+  <ul class="pager">
+    {% if page_obj.has_previous %}
+    <li class="previous"><a href="{% url 'post_list' page=page_obj.previous_page_number %}">&larr; {% trans 'Previous' %}</a></li>
+    {% endif %}
+
+    {% if page_obj.has_next %}
+    <li class="next"><a href="{% url 'post_list' page=page_obj.next_page_number %}">{% trans 'Next' %} &rarr;</a></li>
+    {% endif %}
+  </ul>
+</nav>
+
+{% endblock %}

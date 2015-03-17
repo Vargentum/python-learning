@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load humanize %}
+{% load i18n %}
+
+{% block title %}
+{{ post.title }}
+{% endblock %}
+
+{% block body_block %}
+<h1>{{ post.title }}</h1>
+<p><em>{% trans 'Added on' %}</em> {{ post.created_at | naturaltime }}</p>
+<hr>
+<p>
+{{ post.content }}
+</p>
+{% endblock %}

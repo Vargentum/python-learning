@@ -1,0 +1,34 @@
+{% load i18n %}
+
+<div class="navbar navbar-inverse navbar-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{% url 'index' %}">{{ common.SITE_NAME }}</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        {% url 'blog' as blog_url %}
+        <li><a href="{{ blog_url }}" {% if blog_url == request.path %}class="active"{% endif %}>{% trans 'Blog' %}</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        {% comment %}
+        {% if user.is_authenticated %}
+        <li><a href="{% url 'restricted' %}">Restricted Page</a></li>
+        <li><a href="{% url 'auth_logout' %}?next=/rango/">Logout</a></li>
+        <li><a href="{% url 'add_category' %}">Add a New Category</a></li>
+        {% else %}
+        <li><a href="{% url 'registration_register' %}">Register Here</a></li>
+        <li><a href="{% url 'auth_login' %}">Login</a></li>
+        {% endif %}
+        <li><a href="{% url 'about' %}">About</a></li>
+        {% endcomment %}
+      </ul>
+    </div>
+  </div>
+</div>
